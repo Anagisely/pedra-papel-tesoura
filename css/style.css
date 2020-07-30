@@ -104,7 +104,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border: none;
     border-radius: 100%;
 }
 
@@ -162,6 +162,6 @@
 
     .btn-1{
         width: 90%;
-        height: %;
+        height: 48%;
     }
 }
