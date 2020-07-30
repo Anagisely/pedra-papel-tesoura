@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #FFBD69;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scoreboard{
+    margin: 15px;
+
+    width: 90vw;
+    height: 15vh;
+    background: #E5A451;
+
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.box-title{
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.title{
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+
+.score{
+    width: 30%;
+    height: 80%;
+
+    margin: 15px;
+    background: #FFFFFF;
+
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.score h3, .score p{
+    color: #000000;
+    font-size: 15px;
+
+    text-align: center;
+}
+
+.rock-paper-scissors{
+    width: 70vw;
+    height: 65vw;
+
+    background-image: url(../images/bg-triangle.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100%;
+}
+
+.rock{
+    background: #C70039;
+}
+
+.paper{
+    background: #111D5E;
+}
+
+.scissors{
+    background: #F37121;
+}
+
