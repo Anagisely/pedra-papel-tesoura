@@ -12,12 +12,11 @@ rock.addEventListener('click', (e)=>{
     let computer = parseInt(Math.random()*(3-0)-0)
     
    if(pedra==computer){
-       console.log("EMPATE!!")
-
+       window.alert("EMPATE!!")
    }if(computer==1){
-        console.log("você perdeu")
+        window.alert("você perdeu")
    }if(computer==2){
-       console.log("você ganhou!!!")
+        window.alert("você ganhou!!!")
 
     }
     pedra++
@@ -29,12 +28,11 @@ paper.addEventListener('click', (e)=>{
    while(papel==1){
     let computer = parseInt(Math.random()*(3-0)-0)
    if(papel==computer){
-       console.log("EMPATE!!")
-
+        window.alert("EMPATE!!")
    }if(computer==0){
-        console.log("você ganhou!!")
+        window.alert("você ganhou!!")
    }if(computer==2){
-       console.log("você perdeu")
+        window.alert("você perdeu")
    }
    papel++
 }
@@ -44,63 +42,13 @@ scissors.addEventListener('click', (e)=>{
    while(tesoura==2){
     let computer = parseInt(Math.random()*(3-0)-0)
    if(tesoura==computer){
-       console.log("EMPATE!!")
-
+        window.alert("EMPATE!!")
    }if(computer==0){
-        console.log("você perdeu")
+        window.alert("você perdeu")
    }if(computer==1){
-       console.log("você ganhou!!!")
+        window.alert("você ganhou!!!")
    }
    tesoura++
 }
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-let computer = parseInt(Math.random()*3)
-console.log(computer)
-
-
-
-    console.log(`placar usuario é ${placarUser} e placar computer é ${placarComputer}`)
-    if(computer== 0 && user ==1){
-        console.log( "usuario venceu")
-        placarUser++
-    }else if (computer==1 && user==2){
-        console.log( "usuario venceu")
-        placaruser++ 
-    }else if(computer==2 && user==0){
-        console.log( "usuario venceu")
-        placarUser++
-    }
-    else if (computer==2 && user==1){
-        console.log( "computador venceu")
-        placarComputer++ 
-    }else if(computer==0 && user==2){
-        console.log( "computador venceu")
-        placarComputer++
-    }else if(computer == 1 && user==0){
-        console.log( "computador venceu")
-        placarComputer++
-    }else if(){
-        console.log("empate")
-    }*/
