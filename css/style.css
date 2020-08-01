@@ -98,3 +98,22 @@ body{
     background: #f37121;
     grid-area: btn3;
 }
+
+.btnRes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reset{
+    border: none;
+    border-radius: 10px;
+
+    width: 20vw;
+    height: 5vh;
+
+   
+    font-size: 1em;
+    background: #e5a451;
+}
