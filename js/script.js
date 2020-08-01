@@ -55,6 +55,9 @@ scissors.addEventListener('click', (e)=>{
 }
 })
 
+function resetar(){
+    document.getElementById('placar').innerHTML = "0";
+}
 
 
 
