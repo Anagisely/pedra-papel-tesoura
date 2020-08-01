@@ -7,6 +7,12 @@ let score = 0
 const rock= document.getElementById("rock")
 const paper= document.getElementById("paper")
 const scissors= document.getElementById("scissors")
+const reset = document.getElementById("reset")
+
+reset.addEventListener('click',(e) =>{
+     score = 0
+     valueScore.innerHTML = score
+})
 
 
 rock.addEventListener('click', (e)=>{
