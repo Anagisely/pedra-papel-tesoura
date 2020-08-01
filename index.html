@@ -8,11 +8,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
         <header class="scoreboard">
-            <section class="box-title">
-                <h1 class="title">JOKENPÔ</h1>
-            </section>
+
+            <h1 class="title">JOKENPÔ</h1>
 
             <section class="score">
                 <h3>score</h3>
@@ -21,15 +19,16 @@
         </header>
 
         <main class="rock-paper-scissors">
-            <section class="btn-1">
-                <button type="button" class="button rock" value="0" id="rock"   ><img src="./images/icon-rock.svg" alt></button>
-                <button type="button" class="button paper" value="1"id="paper" ><img src="./images/icon-paper.svg"></button>
-            </section>
-            <section class="btn-2">
-                <button type="button" class="button scissors"value="2" id="scissors" ><img src="./images/icon-scissors.svg"></button>
-            </section>
+                <button class="button rock" value="0" id="rock"   ><img src="./images/icon-rock.svg" alt></button>
+                <button class="button paper" value="1"id="paper" ><img src="./images/icon-paper.svg"></button>
+                <button class="button scissors"value="2" id="scissors" ><img src="./images/icon-scissors.svg"></button>
         </main>
-    </div>
+
+        <div class="btnRes">
+            <input  class="reset" type="reset" value="Resetar" id="reset" onclick="resetar()">
+        </div>
+
+        
     <script src="./js/script.js"></script>
 </body>
 
