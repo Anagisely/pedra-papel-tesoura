@@ -1,0 +1,56 @@
+// 0 é pedra
+// 1 é papel
+// 2 é tesoura
+let placarUser=0
+let placarComputer=0
+let computer = parseInt(Math.random()*3)
+console.log(computer)
+let user = 0 
+console.log(user)
+let esUser = true
+while(esUser == true){
+    console.log(`placar usuario é ${placarUser} e placar computer é ${placarComputer}`)
+    if(computer== 0 && user ==1){
+        console.log( "usuario venceu")
+        placarUser++
+    }else if (computer==1 && user==2){
+        console.log( "usuario venceu")
+        placaruser++ 
+    }else if(computer==2 && user==0){
+        console.log( "usuario venceu")
+        placarUser++
+    }
+    else if (computer==2 && user==1){
+        console.log( "computador venceu")
+        placarComputer++ 
+    }else if(computer==0 && user==2){
+        console.log( "computador venceu")
+        placarComputer++
+    }else if(computer == 1 && user==0){
+        console.log( "computador venceu")
+        placarComputer++
+    }else{
+        console.log("empate")
+    }
+
+
+} 
+
+function escolhas(computer, user){
+    alert (computer +", "+ user);
+}
+
+
+//if (user == 0 && computer == 1) {
+   // console.log("computador ganhou")
+//}else if(user == 1 && computer == 2){
+   // console.log("computador ganhou")
+//}
+    
+//}if (user == 1 && computer == 3) {
+    
+//}if (user == 1 && computer == 3) {
+    
+//} else {
+    
+//}
